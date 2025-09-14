@@ -6,7 +6,7 @@ img: assets/img/citizen-journal.png
 importance: 1
 category: work
 related_publications: true
-github: abolfazlshahsavaryyy/citizen_journal
+github: https://github.com/abolfazlshahsavaryyy/citizen_journal
 ---
 
 Citizen Journal is a **Twitter-like platform** built with **Django** and **FastAPI**, integrated with advanced **machine learning models** for content moderation.  
