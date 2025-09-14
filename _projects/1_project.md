@@ -6,6 +6,7 @@ img: assets/img/citizen-journal.png
 importance: 1
 category: work
 related_publications: true
+github: abolfazlshahsavaryyy/citizen_journal
 ---
 
 Citizen Journal is a **Twitter-like platform** built with **Django** and **FastAPI**, integrated with advanced **machine learning models** for content moderation.  
@@ -31,24 +32,24 @@ Citizen Journal is a **Twitter-like platform** built with **Django** and **FastA
 ## 📌 Core Features
 
 ### 📄 Page & News
-- Create **Pages**.  
-- Publish **News** under each page.  
+- Create **Pages**  
+- Publish **News** under each page  
 
 ### 💬 Comment
-- Add and manage **comments** on news.  
-- Score comments using the **hate speech detection** service.  
+- Add and manage **comments** on news  
+- Score comments using the **hate speech detection** service  
 
 ### 🗣️ Discussion & Topic
-- Start and participate in **discussions**.  
-- Organize conversations under various **topics**.  
+- Start and participate in **discussions**  
+- Organize conversations under various **topics**  
 
 ### ❓ Question & Answer
-- Ask and answer **questions** within discussions.  
-- Community-style interaction, like Q&A forums.  
+- Ask and answer **questions** within discussions  
+- Community-style interaction, like Q&A forums  
 
 ### 🔔 Notification
-- Send **real-time notifications** (e.g., likes on news).  
-- Handled asynchronously with **Celery & RabbitMQ**.  
+- Send **real-time notifications** (e.g., likes on news)  
+- Handled asynchronously with **Celery & RabbitMQ**  
 
 ---
 
