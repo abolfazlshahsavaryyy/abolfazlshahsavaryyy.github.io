@@ -6,6 +6,7 @@ img: assets/img/microservice.png
 importance: 2
 category: work
 giscus_comments: true
+github: https://github.com/abolfazlshahsavaryyy/EShopMicroservices
 ---
 
 The **Microservice Shopping Web API** is a distributed system built with **ASP.NET Core**, following clean architecture principles and modern service communication patterns.  
