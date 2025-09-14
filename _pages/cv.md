@@ -2,7 +2,7 @@
 layout: cv
 title: "CV"
 permalink: /cv/
-nav_order: 2
+nav_order: 3
 cv_pdf: /assets/pdf/example_cv.pdf # you can also use an external link if preferred
 description: >
   A detailed overview of my professional background, including education,
