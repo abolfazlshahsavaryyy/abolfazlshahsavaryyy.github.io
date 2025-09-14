@@ -24,7 +24,7 @@ email: abolfazlshahsavaryyy@gmail.com # your email address
 # # lastfm_id: # your lastfm id
 # # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # # leetcode_id: # your LeetCode id
-# linkedin_username: abolfazl shahsavari # your LinkedIn user name
+linkedin_username: https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/ # your LinkedIn user name
 # # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # # medium_username: # your Medium username
 # # orcid_id: # your ORCID ID
@@ -40,7 +40,7 @@ email: abolfazlshahsavaryyy@gmail.com # your email address
 # # spotify_id: # your spotify id
 # # stackoverflow_id: # your stackoverflow id
 # # strava_userid: # your strava user id
-# telegram_username: abolfazlshahsavaryy # your Telegram user name
+telegram_username: abolfazl_shahsavary # your Telegram user name
 # # unsplash_id: # your unsplash id
 # # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -54,10 +54,10 @@ email: abolfazlshahsavaryyy@gmail.com # your email address
 # #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 # #   title: Custom Social
 # #   url: https://www.alberteinstein.com/
-custom_social:
-  - logo: https://cdn-icons-png.flaticon.com/512/174/174857.png
-    title: LinkedIn
-    url: https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/
-  - logo: https://cdn-icons-png.flaticon.com/512/2111/2111646.png
-    title: Telegram
-    url: https://t.me/abolfazl_shahsavary
+#custom_social:
+#  - logo: https://cdn-icons-png.flaticon.com/512/174/174857.png
+#    title: LinkedIn
+#    url: https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/
+#  - logo: https://cdn-icons-png.flaticon.com/512/2111/2111646.png
+#    title: Telegram
+#    url: https://t.me/abolfazl_shahsavary
