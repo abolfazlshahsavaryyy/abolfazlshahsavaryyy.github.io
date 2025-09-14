@@ -504,11 +504,18 @@ ninja.data = [{
           window.open("mailto:%61%62%6F%6C%66%61%7A%6C%73%68%61%68%73%61%76%61%72%79%79%79@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/abolfazl_shahsavary", "_blank");
         },
       },{
       id: 'light-theme',
