@@ -473,7 +473,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/?originalSubdomain=ir", "_blank");
+          window.open("https://www.linkedin.com/in/abolfazl-shahsavari-5b7045284/?originalSubdomain=ir", "_blank");
         },
       },{
         id: 'social-telegram',
