@@ -421,9 +421,9 @@ ninja.data = [{
           description: "Twitter-like project with Django, FastAPI, ML models, Celery, RabbitMQ &amp; GraphQL",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-microservice-shopping-web-api",
+          title: 'Microservice Shopping Web API',
+          description: "Microservice architecture with ASP.NET Core, Carter, MediatR, SQL Server &amp; Postgres",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
