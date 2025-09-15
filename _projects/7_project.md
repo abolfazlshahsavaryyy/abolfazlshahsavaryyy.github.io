@@ -3,7 +3,7 @@ layout: page
 title: Genetic Algorithm — Solving Equations
 description: Solving 2, 3, and 4 variable equation systems using a genetic algorithm
 img: assets/img/genetic.png
-importance: 1
+importance: 7
 category: work
 github: https://github.com/abolfazlshahsavaryyy/Genetic_Ai
 ---
