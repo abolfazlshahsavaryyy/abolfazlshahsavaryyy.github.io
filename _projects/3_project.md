@@ -3,11 +3,11 @@ layout: page
 title: Watch Store MVC Application
 description: An ASP.NET MVC project for an online watch store with SQL Server, HTML, CSS, JS, and Bootstrap
 img: assets/img/MVC.png
-redirect: https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC
 importance: 3
 category: work
 github: https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC
 ---
+
 
 This project is a **Watch Store Web Application** built with the **MVC architecture in ASP.NET**.  
 It uses **HTML, CSS, JavaScript, and Bootstrap** for the front-end, and **SQL Server** as the database.
@@ -25,3 +25,5 @@ It demonstrates strong integration between front-end design and back-end data ha
 </div>
 
 
+📂 You can view the full source code here:  
+[Watch Store MVC Repository](https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC)
