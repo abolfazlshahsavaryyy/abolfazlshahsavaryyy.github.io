@@ -441,9 +441,9 @@ ninja.data = [{
           description: "A simple artificial neural network for MNIST implemented from scratch with gradient descent and mathematics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-decision-tree-from-scratch",
+          title: 'Decision Tree — From Scratch',
+          description: "A decision tree built from scratch using only NumPy and Pandas, trained to detect DDoS attacks in web requests",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
