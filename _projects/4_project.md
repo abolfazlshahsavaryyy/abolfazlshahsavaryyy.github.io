@@ -3,7 +3,7 @@ layout: page
 title: Restaurant Management System (WPF)
 description: A restaurant management system built with WPF in ASP.NET, SQL Server, and Dapper ORM
 img: assets/img/WPF.png
-importance: 3
+importance: 4
 category: work
 github: https://github.com/abolfazlshahsavaryyy/Restaurant-Management-System-WPF-
 ---
