@@ -431,9 +431,9 @@ ninja.data = [{
           description: "An ASP.NET MVC project for an online watch store with SQL Server, HTML, CSS, JS, and Bootstrap",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-restaurant-management-system-wpf",
+          title: 'Restaurant Management System (WPF)',
+          description: "A restaurant management system built with WPF in ASP.NET, SQL Server, and Dapper ORM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
