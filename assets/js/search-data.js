@@ -426,9 +426,9 @@ ninja.data = [{
           description: "Microservice architecture with ASP.NET Core, Carter, MediatR, SQL Server &amp; Postgres",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-watch-store-mvc-application",
+          title: 'Watch Store MVC Application',
+          description: "An ASP.NET MVC project for an online watch store with SQL Server, HTML, CSS, JS, and Bootstrap",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
