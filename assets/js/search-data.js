@@ -438,7 +438,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-mnist-neural-network-from-scratch",
           title: 'MNIST — Neural Network from Scratch',
-          description: "A from-scratch artificial neural network for MNIST using gradient descent, with mathematical formulas and visualizations",
+          description: "A simple artificial neural network for MNIST implemented from scratch with gradient descent and mathematics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
