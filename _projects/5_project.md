@@ -3,7 +3,7 @@ layout: page
 title: MNIST — Neural Network from Scratch
 description: A simple artificial neural network for MNIST implemented from scratch with gradient descent and mathematics
 img: assets/img/mnist.png
-importance: 3
+importance: 5
 category: work
 github: https://github.com/abolfazlshahsavaryyy/mnist-ann-
 ---
