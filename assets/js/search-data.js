@@ -446,9 +446,9 @@ ninja.data = [{
           description: "A decision tree built from scratch using only NumPy and Pandas, trained to detect DDoS attacks in web requests",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-genetic-algorithm-solving-equations",
+          title: 'Genetic Algorithm — Solving Equations',
+          description: "Solving 2, 3, and 4 variable equation systems using a genetic algorithm",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
