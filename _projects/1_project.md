@@ -15,6 +15,8 @@ Citizen Journal is a **Twitter-like platform** built with **Django** and **FastA
 - 💬 **Hate Speech Detection** – achieved **86% accuracy** on test data.  
 - ⚡ **Celery + RabbitMQ** – used for asynchronous background task execution.  
 - 📊 **GraphQL API** – powerful single endpoint for retrieving news in multiple formats.  
+- 🐘 **PostgreSQL** – used as the relational database.  
+- 📦 **Docker** – all services are fully containerized for easy deployment and scalability.  
 
 ---
 
@@ -57,9 +59,15 @@ Citizen Journal is a **Twitter-like platform** built with **Django** and **FastA
 - **Backend:** Django + FastAPI  
 - **ML Models:** Fake News Detection (99.25%), Hate Speech Detection (86%)  
 - **Async Tasks:** Celery + RabbitMQ  
-- **Database:** Relational model with multiple entities & relationships  
+- **Database:** PostgreSQL  
+- **Containerization:** Docker for all services  
 - **API:** GraphQL for flexible queries  
 
 ---
 
-The project combines **social networking features** with **AI-driven moderation** and a robust **async communication system**.  
+The project combines **social networking features** with **AI-driven moderation**, a robust **async communication system**, and full **Docker-based containerization** for deployment.  
+
+---
+
+📂 **Source Code:**  
+[Citizen Journal Repository](https://github.com/abolfazlshahsavaryyy/citizen_journal)
