@@ -4,7 +4,7 @@ title: AD Project — Task Assignment using Network Flow
 description: Assigning tasks to multiple systems using graph theory and network flow algorithms
 img: assets/img/ad.png
 importance: 3
-category: education
+category: work
 github: https://github.com/abolfazlshahsavaryyy/AD_Project
 ---
 
