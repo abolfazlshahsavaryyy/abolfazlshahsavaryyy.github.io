@@ -4,7 +4,7 @@ title: Decision Tree — From Scratch
 description: A decision tree built from scratch using only NumPy and Pandas, trained to detect DDoS attacks in web requests
 img: assets/img/decition-tree.png
 importance: 4
-category: education
+category: work
 github: https://github.com/abolfazlshahsavaryyy/DT
 ---
 
