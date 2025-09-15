@@ -6,6 +6,7 @@ img: assets/img/MVC.png
 redirect: https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC
 importance: 3
 category: work
+github: https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC
 ---
 
 This project is a **Watch Store Web Application** built with the **MVC architecture in ASP.NET**.  
@@ -23,5 +24,4 @@ It demonstrates strong integration between front-end design and back-end data ha
     Screenshot of the Watch Store MVC project interface.
 </div>
 
-You can find the full source code and details on GitHub:  
-👉 [Watch Store MVC Repository](https://github.com/abolfazlshahsavaryyy/Watch-Store-MVC)
+
