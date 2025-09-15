@@ -1,80 +1,76 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: MNIST — Neural Network from Scratch
+description: A from-scratch artificial neural network for MNIST using gradient descent, with mathematical formulas and visualizations
+img: assets/img/mnist.png
 importance: 3
-category: fun
+category: education
+github: https://github.com/abolfazlshahsavaryyy/mnist-ann-
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project implements an **artificial neural network (ANN) from scratch** to classify the **MNIST** handwritten digit dataset.  
+No deep-learning frameworks were used — the network, training loop, forward pass, and backpropagation were implemented manually to demonstrate the core mathematics and mechanics behind neural networks.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Highlights
+- ✅ **Network implemented from scratch** (layers, activations, weight initialization)  
+- ✅ **Training with batch gradient descent / stochastic gradient descent**  
+- ✅ **Mathematical derivations included** (loss, gradients, update rules)  
+- ✅ **Visualizations** of training loss and sample predictions
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/mnist.png" title="MNIST Neural Network" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Example outputs and training visualizations from the MNIST neural network implemented from scratch.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## 🔬 Math & Training (concise)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Loss (cross-entropy for one-hot label y and softmax output p):**
 
-{% endraw %}
+\[
+\mathcal{L} = -\sum_{k} y_k \log p_k
+\]
+
+**Softmax output:**
+
+\[
+p_k = \frac{e^{z_k}}{\sum_j e^{z_j}}
+\]
+
+**Gradient of loss w.r.t. logits \(z\):**
+
+\[
+\frac{\partial \mathcal{L}}{\partial z_k} = p_k - y_k
+\]
+
+**Weight update (gradient descent):**
+
+\[
+W \leftarrow W - \eta \frac{\partial \mathcal{L}}{\partial W}
+\]
+
+Where \(\eta\) is the learning rate.  
+Backpropagation applies the chain rule layer-by-layer to compute \(\frac{\partial \mathcal{L}}{\partial W}\) and \(\frac{\partial \mathcal{L}}{\partial b}\).
+
+---
+
+## ⚙️ Implementation notes
+- Network architecture examples: **[784] → [128] → [64] → [10]** with ReLU activations and softmax output.  
+- Weight initialization: small random values (e.g., Xavier/Glorot initialization recommended).  
+- Optimizers: vanilla **(stochastic) gradient descent** implemented; experiments with momentum also included.  
+- Regularization: simple L2 weight decay and dropout can be toggled for experiments.  
+- Evaluation: accuracy, confusion matrix, and sample prediction visualizations saved during training.
+
+---
+
+## 📂 Repository
+The full implementation, training scripts, dataset preprocessing, and visualizations are available on GitHub:
+
+[MNIST ANN Repository](https://github.com/abolfazlshahsavaryyy/mnist-ann-)
+
+---
